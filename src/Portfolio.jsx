@@ -203,6 +203,36 @@ const TerminalPortfolio = () => {
               </a>
             </div>
           </div>
+          <div className="border border-green-500/30 p-4 rounded">
+            <h3 className="text-green-400 font-bold mb-2">
+              Movie Catalog - Interactive Movie Browser
+            </h3>
+            <p className="text-green-500/80 text-sm mb-3">
+              Built with React, React Router, Vite, Tailwind CSS, and Appwrite.
+              Fetches latest movies from an external API. Features a dynamic
+              trending section that mimics Netflix-style popularity by tracking
+              real user searches through Appwrite's backend.
+            </p>
+
+            <div className="flex gap-2">
+              <a
+                href="https://movie-catalog-er64.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs border border-green-500 px-2 py-1 hover:bg-green-500/20"
+              >
+                [ live app ]
+              </a>
+              <a
+                href="https://github.com/Mauoser/bunpofy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs border border-green-500 px-2 py-1 hover:bg-green-500/20"
+              >
+                [ github ]
+              </a>
+            </div>
+          </div>
         </div>
       ),
     },
