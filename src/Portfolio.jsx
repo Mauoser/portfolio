@@ -121,6 +121,35 @@ const TerminalPortfolio = () => {
         <div className="space-y-6">
           <div className="border border-green-500/30 p-4 rounded">
             <h3 className="text-green-400 font-bold mb-2">
+              KanjAI - AI-Powered Kanji Learning Platform
+            </h3>
+            <p className="text-green-500/80 text-sm mb-3">
+              Built with React, TypeScript, Node.js, Express, and PostgreSQL.
+              Features AI-generated kanji mnemonics, SRS scheduling, EXP
+              leveling, and an interactive AI chat bot.
+            </p>
+            <div className="flex gap-2">
+              <a
+                href="https://kanjai-frontend.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs border border-green-500 px-2 py-1 hover:bg-green-500/20"
+              >
+                [ live app ]
+              </a>
+              <a
+                href="https://github.com/Mauoser/Kanjai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs border border-green-500 px-2 py-1 hover:bg-green-500/20"
+              >
+                [ github ]
+              </a>
+            </div>
+          </div>
+
+          <div className="border border-green-500/30 p-4 rounded">
+            <h3 className="text-green-400 font-bold mb-2">
               Intervy - AI Interview Coach
             </h3>
             <p className="text-green-500/80 text-sm mb-3">
@@ -129,7 +158,7 @@ const TerminalPortfolio = () => {
             </p>
             <div className="flex gap-2">
               <a
-                href="https://intervy.onrender.com/"
+                href="https://youtu.be/D2I2us_6M2c?si=zYVilhDeq9dQF2ui&t=52"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs border border-green-500 px-2 py-1 hover:bg-green-500/20"
@@ -137,7 +166,7 @@ const TerminalPortfolio = () => {
                 [ live app ]
               </a>
               <a
-                href="https://github.com/Mauoser/ai-interview-coach"
+                href="https://github.com/Mauoser/bunpofy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs border border-green-500 px-2 py-1 hover:bg-green-500/20"
@@ -166,34 +195,6 @@ const TerminalPortfolio = () => {
               </a>
               <a
                 href="https://github.com/Mauoser/bunpofy"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs border border-green-500 px-2 py-1 hover:bg-green-500/20"
-              >
-                [ github ]
-              </a>
-            </div>
-          </div>
-
-          <div className="border border-green-500/30 p-4 rounded">
-            <h3 className="text-green-400 font-bold mb-2">
-              Fantasy Fleet - Vehicle Marketplace
-            </h3>
-            <p className="text-green-500/80 text-sm mb-3">
-              Rent iconic vehicles from fiction. Full-stack application with
-              seamless experience for renters and lenders.
-            </p>
-            <div className="flex gap-2">
-              <a
-                href="https://fantasy-fleet.onrender.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs border border-green-500 px-2 py-1 hover:bg-green-500/20"
-              >
-                [ live app ]
-              </a>
-              <a
-                href="https://github.com/Mauoser/fantasy-fleet"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs border border-green-500 px-2 py-1 hover:bg-green-500/20"
